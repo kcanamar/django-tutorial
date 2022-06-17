@@ -1,1 +1,1 @@
-wed: gunicorn djangoTutorial.wsgi
+wed: gunicorn djangotutorial.wsgi
