@@ -19,6 +19,6 @@ import routes.views as routeviews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', routeviews.HelloWorld),
+    path('/', routeviews.HelloWorld),
     path('todo/', routeviews.index)
 ]
